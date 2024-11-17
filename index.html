@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Chess Game</title>
+</head>
+<body>
+  <div class="container">
+    <div class="board"></div>
+
+    <div class="sidebar">
+      <div class="clock black-clock">
+        <span>Black</span>
+        <div class="time">10:00</div>
+      </div>
+
+      <div class="history">
+        <div class="history-header">
+          <span>White</span>
+          <span>Black</span>
+        </div>
+        <div class="history-list"></div>
+      </div>
+
+      <div class="controls">
+        <button id="flip-board">Flip Board</button>
+        <button id="undo">↩️</button>
+        <button id="redo">↪️</button>
+        <button id="restart">🔄</button>
+      </div>
+
+      <div class="clock white-clock">
+        <span>White</span>
+        <div class="time">10:00</div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
